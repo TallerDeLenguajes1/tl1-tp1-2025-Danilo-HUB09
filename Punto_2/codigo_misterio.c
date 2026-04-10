@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void f_alpha(int *p) {
+void invertir_numero(int *p) {
     int temp = *p;
     int rev = 0;
     while (temp > 0) {
@@ -10,11 +10,11 @@ void f_alpha(int *p) {
     *p = rev;
 }
 
-void f_beta(int *p) {
+void dividir_numero(int *p) {
     *p = *p / 2;
 }
 
-void f_gamma(int *p) {
+void sumar_digitos(int *p) {
     int temp = *p;
     int suma = 0;
     while (temp > 0) {
@@ -25,9 +25,9 @@ void f_gamma(int *p) {
 }
 
 void procesar_enigma(int *valor_referencia) {
-    f_alpha(valor_referencia);
-    f_beta(valor_referencia);
-    f_gamma(valor_referencia);
+    invertir_numero(valor_referencia);
+    dividir_numero(valor_referencia);
+    sumar_digitos(valor_referencia);
 }
 
 int main() {

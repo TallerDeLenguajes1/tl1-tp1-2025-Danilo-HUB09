@@ -37,3 +37,15 @@ _Logs_
 _IDEs_
 .idea/
 .vscode/
+
+## Punto 3
+### Correcciones al programa "codigo_sin_funcionar.c"
+- Se añadio un "&" al primer scanf que recibia valor1
+- Se añadio ";" donde hacia falta
+- Se modifico la declaracion de la varible "suma"
+- Se cambio el tipo de la funcion "duplicar_numero" del tippo void a int y a su llamada se añadio "valor1 = duplicar_numero(valor1);", para que reciba el valor duplicado de la entrada
+
+### Funcionamiento del programa "codigo_misterioso.c"
+- _f-alpha:_ esta funcion invierte el numero apuntado, se la renombro como "invertir_numero"
+- _f-beta:_ divide el numero apuntado en dos, se la renombro a "dividir_numero"
+- _f-gamma:_ suma los digitos del numero al mismo numero, se la renombro a "sumar_digitos"
